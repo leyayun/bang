@@ -1,0 +1,24 @@
+{
+    "name": "@qxwz/bang",
+    "version": "0.3.1",
+    "description": "bops 拆分迁移工具",
+    "files": [
+        "bin",
+        "index.js"
+    ],
+    "main": "index.js",
+    "bin": {
+        "bang": "./bin/index.js"
+    },
+    "author": "yayun.li",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.8.6",
+        "@babel/generator": "^7.8.6",
+        "@babel/traverse": "^7.8.6",
+        "@babel/types": "^7.8.6",
+        "chalk": "^3.0.0",
+        "execa": "^4.0.0",
+        "fs-extra": "^8.1.0"
+    }
+}
