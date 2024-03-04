@@ -12,16 +12,6 @@ bops 拆分迁移到微应用工具。
 
 > 本工具在生成 qbp 子项目时依赖于 `create-react-app`、`@qxwz/react-scripts`、`@qxwz/cra-template-bops`
 
-### 需要人工完成的事项：
-
--   移除全球化语言支持 intl.get
--   剔除子项目中没有使用到的 store 和 service
--   替换 node 层接口调用
--   修复 eslint
--   其他你想做的代码重构
-
-> node 层接口依赖文件可参考生成子项目时的 `help-ajax.txt` 文件。
-> i18 依赖文件可参考生成子项目时的 `help-i18n.txt` 文件。
 
 ### 注意事项：
 
